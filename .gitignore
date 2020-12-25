@@ -1,9 +1,0 @@
-.gitignore
-
-.minecraft/saves
-.minecraft/logs
-.minecraft/journeymap
-hmcl.json
-.minecraft/usercache.json
-.minecraft/usernamecache.json
-.minecraft/versions/1.12.2/hmclversion.cfg
