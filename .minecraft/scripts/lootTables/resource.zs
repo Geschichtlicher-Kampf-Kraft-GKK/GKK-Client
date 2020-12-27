@@ -4,8 +4,8 @@ import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 
-val treasure as LootTable = LootTweaker.newTable("gkk:entities/treasure");
-var pool as LootPool = treasure.addPool("main", 1, 1, 0, 0);
+val resource as LootTable = LootTweaker.newTable("gkk:entities/resource");
+var pool as LootPool = resource.addPool("main", 1, 1, 0, 0);
 pool.addItemEntryJson(<minecraft:iron_ingot>, 1, 1, [], [
 	{
 		"inverse": false,

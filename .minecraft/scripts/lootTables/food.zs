@@ -4,8 +4,8 @@ import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 
-val junk as LootTable = LootTweaker.newTable("gkk:entities/junk");
-var pool as LootPool = junk.addPool("main", 1, 1, 0, 0);
+val food as LootTable = LootTweaker.newTable("gkk:entities/food");
+var pool as LootPool = food.addPool("main", 1, 1, 0, 0);
 pool.addItemEntryJson(<minecraft:apple>, 1, 1, [], [
 	{
 		"inverse": false,
