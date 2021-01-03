@@ -16,3 +16,6 @@ hmcl.json
 .minecraft/options.txt
 .minecraft/optionsof.txt
 .minecraft/servers.dat
+.minecraft/versions/1.12.2/hmclversion.cfg
+instance.cfg
+mmc-pack.json
